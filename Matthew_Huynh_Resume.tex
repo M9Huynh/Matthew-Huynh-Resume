@@ -1,0 +1,174 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Matthew Huynh} \\ \vspace{1pt}
+    \small (416)-433-5784 $|$ \href{mailto:huynhmatthew0@gmail.com}{\underline{huynhmatthew0@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/matthew-huynh/}{\underline{linkedin.com/in/Matthew-Huynh}} 
+    % \href{https://github.com/M9Huynh}{\underline{github.com/M9Huynh}}
+\end{center}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Consultant}{Jan. 2025 -- Aug. 2025}
+      {BDO Canada -- Credits \& Incentives}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Draft technical reports for SR\&ED and Clean Economy Investment Tax Credits, primarily focusing of software development and engineering projects for eligibility.}
+        \resumeItem{Collaborate with clients across various industries to document technological advancements and challenges in their R\&D initiatives.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Teaching Assistant}{Sep. 2021 -- Present}
+      {McMaster University -- ENG 1P13, ENG 2PX3, INNOVATE 2Z03, ENGMGNT 4A03}{Hamilton, ON}
+      \resumeItemListStart
+        \resumeItem{Guided 80+ undergraduate students through engineering design and programming fundamentals, providing technical mentorship and personalized feedback.}
+        \resumeItem{Evaluated and supervised engineering projects using Autodesk Inventor, Python, and Quanser, helping students develop innovative solutions to real-world problems.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer}{May 2023 -- Aug. 2023}
+      {Royal Bank of Canada -- Ojo Canada}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Applied an agile development methodology to successfully create a React Native application using TypeScript for our front-end development.}
+        \resumeItem{Assisted in the initial setup for push notifications using Firebase Cloud Messaging, enhancing user engagement and communication within the app.}
+        \resumeItem{Effectively integrated our application with Google Analytics to allow for data-driven decision making and providing valuable insights for future improvements.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Developer}{May 2022 -- Aug. 2022}
+      {Royal Bank of Canada -- Amplify}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Collaborated with a cross-functional team of \textbf{4} under SmartReno to address challenges of creating a stress-free renovation journey for Canadian homeowners.}
+        \resumeItem{Designed the user interface of our web application using industry standard technologies such as React.js, Axios, and Material UI, ensuring an appealing user experience.}
+        \resumeItem{Conducted in-depth market research, user interviews and competitive analysis to inform the creation of multiple user personas in which our application could be tailored to.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Analyst}{May 2021 -- Aug. 2021}
+      {Grant Thornton - R\&D and Government Incentives}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Collaborated closely with a multidisciplinary team of engineers and accountants to assess client's innovated and experimental processes, aimed at resolving technological uncertainties.}
+        \resumeItem{Assisted in documenting and communicating project details during client meetings. Prepared working papers and CRA (Canada Revenue Agency) tax documents, facilitating claims of up to \textbf{35\%} of the client's annual expenditure in government incentives.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {\textbf{Paddle Hand Tracker} $|$ \emph{Python, OpenCV}}{}
+        \resumeItemListStart
+          \resumeItem{Python program that utilizes \textbf{Open-CV} to supplement athlete training for dragon boat form when paddling with \textbf{90\%+} accuracy.}
+          \resumeItem{Developed version control skills using \textbf{Git} by keeping everything up-to-date and gained further understanding of CI/CD pipelines through this project.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, JavaScript, SQL, HTML/CSS} \\
+     \textbf{Frameworks}{: React.js, React Native, Jest, JUnit 5, Material-UI} \\
+     \textbf{Developer Tools}{: Git, Jira, Linux, Firebase, Google Analytics} \\
+    }}
+ \end{itemize}
+
+    %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McMaster University}{Sep. 2020 -- Apr. 2026}
+      {Bachelor of Software Engineering and Management}{Hamilton, ON}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
